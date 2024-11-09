@@ -1,0 +1,75 @@
+.btn-subscribe{
+    background-color: rgb(200,0,0);
+    border:none;
+    border-radius: 2px;
+    height:30px;
+    width: 100px;
+    cursor:pointer;
+    color:aliceblue;
+    transition: opacity 0.15s;
+   
+}
+/*when we pass the mouse*/
+.btn-subscribe:hover{
+    opacity: 0.6;
+}
+/* when we click*/
+.btn-subscribe:active{
+    opacity: 0.4;
+}
+.btn-join{
+    border:1px solid blue;
+    color:blue;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-left: 7px;
+    margin-right: 7px;
+   
+      /* to do the transition we use transition and it takes
+    two values first what we want to do the transition and 
+    second the timing we wantto take and generally 
+    we use 0.15 secondes */
+    transition:background-color 0.15s,color 0.15s;
+}
+.btn-join:hover{
+    color:white;
+    background-color: blue;
+}
+ .btn-join:active{
+    opacity: 0.6;
+ }
+.btn-tweet{
+    border:none;
+    background-color: rgb(44, 178, 245);
+    border-radius: 25px;
+    color:white;
+    padding: 6px 15px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor:pointer;
+    transition: shadow 0.15s;
+    vertical-align: top;
+}
+.btn-tweet:hover{
+     /* shadow it takes five values  
+     horizontale > | verticale ^ | blur | color */
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+     
+}
+.btn-strecth{
+  background-color: green;
+  color: azure;  
+  border:none;
+  padding: 5px 8px;
+  vertical-align: top;
+  cursor: pointer;
+  transition: padding 0.7s;
+  font-size: 10px;
+}
+.btn-strecth:hover{
+    padding: 10px 20px;
+    
+}
